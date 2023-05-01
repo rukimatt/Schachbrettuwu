@@ -8,6 +8,9 @@ import java.awt.*;
 public class Schachbrett extends GraphicalObject {
 
     public void schachbrett() {
+    }
+
+    public void draw(DrawTool drawTool) {
 
         DrawTool drawTool = new DrawTool();
 
@@ -17,7 +20,7 @@ public class Schachbrett extends GraphicalObject {
                 if (((i + j) % 2 == 0)) {
 
                     drawTool.setColor(Color.WHITE);
-                } else {
+                }else{
                     drawTool.setColor(Color.BLACK);
 
                 }
@@ -25,3 +28,7 @@ public class Schachbrett extends GraphicalObject {
         }
     }
 }
+
+
+
+
