@@ -36,8 +36,8 @@ public class ProgramController {
      */
     public void startProgram() {
         // Erstelle ein Objekt der Klasse Schachbrett und lasse es zeichnen
-        Schachbrett rect = new Schachbrett();
-        viewController.draw(rect);
+        Schachbrett schachbrett = new Schachbrett();
+        viewController.draw(schachbrett);
 
     }
 
