@@ -9,7 +9,7 @@ import java.awt.*;
 public class Schachbrett extends GraphicalObject {
 
     public void draw(DrawTool drawTool){
-        drawTool.setCurrentColor(new Color(50, 0, 50));
+        drawTool.setCurrentColor(new Color(255, 150, 203));
 
         for(int i = 0; i * 50 < Config.WINDOW_HEIGHT; i++){
             for(int j = 0; j * 50 < Config.WINDOW_WIDTH; j++){
