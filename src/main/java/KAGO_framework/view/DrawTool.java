@@ -367,4 +367,6 @@ public class DrawTool {
         return parent;
     }
 
+    public void setColor(Color black) {
+    }
 }
