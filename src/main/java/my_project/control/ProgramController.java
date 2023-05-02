@@ -35,10 +35,8 @@ public class ProgramController {
      * Sie erstellt die leeren Datenstrukturen, zu Beginn nur eine Queue
      */
     public void startProgram() {
-        // Erstelle ein Objekt der Klasse Schachbrett und lasse es zeichnen
         Schachbrett schachbrett = new Schachbrett();
         viewController.draw(schachbrett);
-
     }
 
     /**
